@@ -9,7 +9,8 @@ from .modules.make import make
 from .modules.migrate import migrate
 from .modules.sync import sync
 from .modules.upload_dir import upload_dir
-from .extensions import upload_dir, make, sync, migrate
+from .modules.delete_resources_from_file import delete_resources_from_file
+# from .extensions import upload_dir, make, sync, migrate
 # import csv as _csv
 from .defaults import CLOUDINARY_CLI_CONFIG_FILE
 
@@ -41,6 +42,7 @@ cli.add_command(upload_dir)
 cli.add_command(make)
 cli.add_command(migrate)
 cli.add_command(sync)
+cli.add_command(delete_resources_from_file)
 
 # Sample resources
 
