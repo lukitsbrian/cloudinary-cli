@@ -1,5 +1,7 @@
 # Cloudinary CLI
 
+_**Note: This repository is deprecated, and has been moved to https://github.com/cloudinary/cloudinary-cli/**_
+
 ## Features
 This command line interface is fully and seamlessly integrated with Cloudinary's APIs.
 
